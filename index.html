@@ -30,14 +30,12 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            /* Update agar bisa di-scroll dengan mulus di semua device */
             overflow-x: hidden;
             overflow-y: auto; 
             padding: 40px 20px;
             position: relative;
         }
 
-        /* Animated Background Elements - Fixed position agar tidak ikut ter-scroll */
         .bg-animation {
             position: fixed; 
             top: 0;
@@ -66,7 +64,6 @@
             100% { transform: translate(-30px, 50px) scale(0.9); }
         }
 
-        /* Particles */
         .particles {
             position: absolute;
             width: 100%;
@@ -85,7 +82,6 @@
             100% { background-position: 50px 50px, 75px 75px; }
         }
 
-        /* Main Container */
         .container {
             width: 100%;
             max-width: 600px;
@@ -104,14 +100,13 @@
             animation: slideUpIn 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
             position: relative;
             z-index: 10;
-            margin: auto; /* Membantu centering saat discroll */
+            margin: auto; 
         }
 
         @keyframes slideUpIn {
             to { transform: translateY(0); opacity: 1; }
         }
 
-        /* Header UI */
         .cyber-badge {
             display: inline-block;
             padding: 8px 16px;
@@ -151,7 +146,6 @@
             line-height: 1.5;
         }
 
-        /* Input UI */
         .input-group {
             position: relative;
             margin-bottom: 30px;
@@ -225,7 +219,6 @@
             left: 100%;
         }
 
-        /* Scanning Animation overlay */
         .scanning-line {
             display: none;
             position: absolute;
@@ -247,7 +240,6 @@
             100% { top: 100%; opacity: 0; }
         }
 
-        /* Results UI Promax */
         .result-wrapper {
             display: none;
             text-align: left;
@@ -335,7 +327,6 @@
             -webkit-text-fill-color: transparent;
         }
 
-        /* Error UI */
         .error-box {
             display: none;
             background: rgba(255, 8, 68, 0.1);
@@ -354,7 +345,6 @@
             40%, 60% { transform: translate3d(4px, 0, 0); }
         }
 
-        /* Loading Spinner */
         .loader {
             display: none;
             margin: 30px auto;
@@ -370,7 +360,6 @@
             to { transform: rotate(360deg); }
         }
 
-        /* Responsive */
         @media (max-width: 600px) {
             .container { padding: 40px 20px; width: 100%; border-radius: 20px; }
             .result-grid { grid-template-columns: 1fr; gap: 10px; }
@@ -468,7 +457,15 @@
             { username: "Arga renatan Renaldi", password: "@Arga123", firstName: "Arga", lastName: "abdul", email: "arga12@gmail.com", city: "masbagik" },
             { username: "Riki arya", password: "@Rikiarya123", firstName: "Riki", lastName: "arya", email: "rikiarya610@gmail.com", city: "masbagik" },
             { username: "Nabila Rizkia", password: "@Nabila123", firstName: "Nabila", lastName: "Nabila", email: "nabilarizkia202508@gmail.com", city: "Ijobalit" },
-            { username: "NUR LAILI HAFIZA", password: "zarlin09876", firstName: "NUR", lastName: "HAFIZA", email: "zarlingionino12@gmail.com", city: "LOMBOK TIMUR" }
+            { username: "NUR LAILI HAFIZA", password: "zarlin09876", firstName: "NUR", lastName: "HAFIZA", email: "zarlingionino12@gmail.com", city: "LOMBOK TIMUR" },
+            // Data baru dari PDF
+            { username: "Muhammad Faiz Ramadhani", password: "@ALC2026", firstName: "Muhammad Faiz", lastName: "Ramadhani", email: "azmizanamin@gmail.com", city: "Paokmotong" },
+            { username: "Jepian", password: "@ALC2026", firstName: "Jepian", lastName: ".", email: "jupganteng07@gmail.com", city: "Nusa Tenggara Barat, Pringgasela, Pengadangan Barat" },
+            { username: "Moh syaiful hadi", password: "@ALC2026", firstName: "Moh syaiful", lastName: "Hadi", email: "hsyaiful098@gmail.com", city: "Masbagik" },
+            { username: "Linda nasrudin", password: "Li123123@$", firstName: "Linda", lastName: "Nasrudin", email: "lindakurniaw782@gmail.com", city: "Riyadh Saudi Arabia" },
+            { username: "Maulizan Fikri", password: "@ALC2026", firstName: "Maulizan", lastName: "Fikri", email: "maulizafikri@gmail.com", city: "Lombok timur" },
+            { username: "Arga zanatan renardy", password: "@ALC2026", firstName: "Arga", lastName: "Arvenzz", email: "argaajaa173@gmail.com", city: "Aikmel" },
+            { username: "bunayanati", password: "Nana0802@", firstName: "buna", lastName: "Yanati", email: "bunayanati@gmail.com", city: "Suralaga" }
         ];
 
         function initiateSearch() {
