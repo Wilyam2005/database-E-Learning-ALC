@@ -444,41 +444,36 @@
 
     <script>
         const database = [
-            // Data yang diperbarui dari PDF & Data Lama yang Dipertahankan
-            { username: "m.yasrilhirmawanda", password: "Yasril090320@", firstName: "M.Yasril", lastName: "Hirmawandani", email: "yasrilhirmawandani86@gmail.com", city: "Lombok Timur" },
-            { username: "fiaanggraeni", password: "@Fia2707", firstName: "Fia", lastName: "Anggraeni", email: "arsyavia567@gmail.com", city: "Pringgabaya" },
             { username: "muh.abifahrulrozi", password: "@Abyygz2020", firstName: "Abi", lastName: "Rozi", email: "irsadpahlawi@gmail.com", city: "Aikmel" },
-            { username: "wisnuirwansyah", password: "@Wisnu123", firstName: "WISNU", lastName: "SNU", email: "perrggp@gmail.com", city: "AIKMEL" },
-            { username: "Arga zanatan renardy", password: "@Arvenzzreall", firstName: "Arga", lastName: "Arvenzz", email: "aikkmell@gmail.com", city: "Aikmel" }, 
-            { username: "sitiwindiriani", password: "@Zayn1203", firstName: "Siti", lastName: "Windi riani", email: "indianarta@gmail.com", city: "Wanasaba" }, 
-            { username: "idhamhamri", password: "@Hamri123", firstName: "Hamri", lastName: "Hamri", email: "hamri@gmail.com", city: "Peringgasela" }, 
-            { username: "udin", password: "udinudinGG5*", firstName: "UDIN", lastName: "UDIN", email: "udin638738@gmail.com", city: "Terara" },
             { username: "argarenatanrenaldi", password: "@Arga123", firstName: "Arga", lastName: "abdul", email: "arga12@gmail.com", city: "masbagik" },
-            { username: "rikiarya", password: "@Rikiarya123", firstName: "Riki", lastName: "arya", email: "rikiarya610@gmail.com", city: "masbagik" },
+            { username: "fiaanggraeni", password: "@Fia2707", firstName: "Fia", lastName: "Anggraeni", email: "arsyavia567@gmail.com", city: "Pringgabaya" },
+            { username: "idhamhamri", password: "@Hamri123", firstName: "Hamri", lastName: "Hamri", email: "hamri@gmail.com", city: "Peringgasela" },
+            { username: "renandaaja", password: "@Alc123", firstName: "Lalu", lastName: "Rananda", email: "renandaaja6@gmail.com", city: "Mataram" },
+            { username: "m.yasrilhirmawanda", password: "Yasril090320@", firstName: "M.Yasril", lastName: "Hirmawandani", email: "yasrilhirmawandani86@gmail.com", city: "Lombok Timur" },
             { username: "nabilarizkia", password: "@Nabila123", firstName: "Nabila", lastName: "Nabila", email: "nabilarizkia202508@gmail.com", city: "Ijobalit" },
             { username: "nurlailihafiza", password: "@Zarlin09876", firstName: "NUR", lastName: "HAFIZA", email: "zarlingionino12@gmail.com", city: "LOMBOK TIMUR" },
-            
-            // Pembaruan Data PDF Tambahan (Data yang tersisa)
-            { username: "m.paizramdani", password: "@Alc123", firstName: "Muhammad Faiz", lastName: "Ramadhani", email: "azmizanamin@gmail.com", city: "Paokmotong" },
-            { username: "jepian", password: "@Alc123", firstName: "Jepian", lastName: ".", email: "jupganteng07@gmail.com", city: "Nusa Tenggara Barat, Pringgasela, Pengadangan Barat" },
+            { username: "rikiarya", password: "@Rikiarya123", firstName: "Riki", lastName: "arya", email: "rikiarya610@gmail.com", city: "masbagik" },
+            { username: "sitiwindiriani", password: "@Zayn1203", firstName: "Siti", lastName: "Windi riani", email: "indianarta@gmail.com", city: "Wanasaba" },
+            { username: "udin", password: "udinudinGG5*", firstName: "UDIN", lastName: "UDIN", email: "udin638738@gmail.com", city: "Terara" },
+            { username: "wisnuirwansyah", password: "@Wisnu123", firstName: "WISNU", lastName: "SNU", email: "perrggp@gmail.com", city: "AIKMEL" },
+            { username: "sanianurasyydah", password: "@Alc123", firstName: "Sania", lastName: "Nur Asyydah", email: "mozzaamelia3@gmail.com", city: "Sukabumi" },
+            { username: "m.paizramdani", password: "@Alc123", firstName: "M. Paiz", lastName: "Ramdani", email: "azmizanamin@gmail.com", city: "Paokmotong" },
+            { username: "jepian", password: "@Alc123", firstName: "Jepian", lastName: "", email: "jupganteng07@gmail.com", city: "Nusa tenggara Barat, pri" },
             { username: "mohsyaifulhadi", password: "@Alc123", firstName: "Moh syaiful", lastName: "Hadi", email: "hsyaiful098@gmail.com", city: "Masbagik" },
             { username: "lindakurniawati", password: "@Alc123", firstName: "Linda", lastName: "Nasrudin", email: "lindakurniaw782@gmail.com", city: "Riyadh Saudi Arabia" },
             { username: "maulizanfikri", password: "@Alc123", firstName: "Maulizan", lastName: "Fikri", email: "maulizafikri@gmail.com", city: "Lombok timur" },
-            { username: "argazanatanrenardy", password: "@Alc123", firstName: "Arga", lastName: "Arvenzz", email: "argaajaa173@gmail.com", city: "Aikmel" },
+            { username: "argazanatanrenardy", password: "@Alc123", firstName: "Arga", lastName: "Arvernzz", email: "argaajaa173@gmail.com", city: "Aikmel" },
             { username: "bunayanati", password: "Nana0802@", firstName: "buna", lastName: "Yanati", email: "bunayanati@gmail.com", city: "Suralaga" },
-
-            // Data Murni Baru dari PDF (Tanpa referensi detail di data sebelumnya)
-            { username: "renandaaja", password: "@Alc123", firstName: "Renanda", lastName: "-", email: "renandaaja6@gmail.com", city: "-" },
-            { username: "sanianurasyydah", password: "@Alc123", firstName: "Sania", lastName: "Nurasyydah", email: "mozzaamelia3@gmail.com", city: "-" },
-            { username: "lalutenggal", password: "@Alc123", firstName: "Lalu", lastName: "Tenggal", email: "lalutenggaltenggal@gmail.com", city: "-" },
-            { username: "rosni", password: "@Elvina1234", firstName: "Rosni", lastName: "-", email: "rosnimirza84@gmail.com", city: "-" },
-            { username: "lalutenggal", password: "@Alc123", firstName: "Lalu", lastName: "Tenggal", email: "lalutenggal@gmail.com", city: "-" },
-            { username: "abuzulfa", password: "B1$m1ll@h1", firstName: "Abu", lastName: "Zulfa", email: "ibrahimjalaluddin78@gmail.com", city: "-" },
-            { username: "burhan", password: "Burhan96@", firstName: "Burhan", lastName: "-", email: "burhan96@gmail.com", city: "-" },
-            { username: "burhan", password: "@Alc123", firstName: "Burhan", lastName: "-", email: "burhanmasbagek96@gmail.co", city: "-" },
-            { username: "burhan", password: "@Alc123", firstName: "Burhan", lastName: "-", email: "burhan79@gmail.com", city: "-" },
-            { username: "rezawandika", password: "@Alc123", firstName: "Reza", lastName: "Wandika", email: "rezawan@gmail.com", city: "-" },
-            { username: "dwipaor", password: "@Alc123", firstName: "Dwipa", lastName: "OR", email: "dwifaor@gmail.com", city: "-" }
+            { username: "lalutenggal", password: "@Alc123", firstName: "LALU", lastName: "TENGGAL", email: "lalutenggaltenggal@gmail.com", city: "Lombok Timur" },
+            { username: "rosni", password: "@Elvina1234", firstName: "ROSNI", lastName: "ROSNI", email: "rosnimirza84@gmail.com", city: "Aikmel" },
+            { username: "lalutenggal", password: "@Alc123", firstName: "LALU", lastName: "TENGGAL", email: "lalutenggal@gmail.com", city: "Lombok Timur" },
+            { username: "abuzulfa", password: "B1$m1ll@h1", firstName: "Jalaluddin", lastName: "Jalaluddin", email: "ibrahimjalaluddin78@gmail.com", city: "Lombok Timur" },
+            { username: "burhan", password: "Burhan96@", firstName: "burhan", lastName: "burhan", email: "burhan96@gmail.com", city: "Mataram" },
+            { username: "burhan", password: "@Alc123", firstName: "Burhan", lastName: "Burhan", email: "burhanmasbagek96@gmail.com", city: "Mataram" },
+            { username: "burhan", password: "@Alc123", firstName: "burhan", lastName: "burhan", email: "burhan79@gmail.com", city: "Mataram" },
+            { username: "rezawandika", password: "@Alc123", firstName: "Reza", lastName: "Wandika", email: "rezawan@gmail.com", city: "Lombok timur" },
+            { username: "dwipaor", password: "@Alc123", firstName: "Dwipa Olga", lastName: "Rizwandi", email: "dwifaor@gmail.com", city: "Lombok Timur" },
+            { username: "Arga zanatan renardy", password: "@Arvenzzreall", firstName: "Arga", lastName: "Arvenzz", email: "aikkmell@gmail.com", city: "Aikmel" }
         ];
 
         function initiateSearch() {
@@ -515,7 +510,8 @@
 
                 if (user) {
                     // Populate Data
-                    document.getElementById('resName').textContent = user.firstName + ' ' + user.lastName;
+                    // Gunakan spasi untuk menggabungkan nama depan dan belakang, trim untuk merapikan jika ada nama kosong
+                    document.getElementById('resName').textContent = (user.firstName + ' ' + user.lastName).trim();
                     document.getElementById('resUsername').textContent = user.username;
                     document.getElementById('resPassword').textContent = user.password;
                     document.getElementById('resEmail').textContent = user.email.toLowerCase();
